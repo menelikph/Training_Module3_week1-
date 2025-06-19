@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>interactive system</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header section with a welcome title -->
@@ -12,7 +13,7 @@
     </div>
 
     <!-- Main content area -->
-    <div>
+    <div class="content">
       <!-- Instruction for the user -->
       <p>
         Por favor, ingresa tu nombre y edad para recibir un mensaje
@@ -33,10 +34,13 @@
         <button type="submit">Enviar</button>
       </form>
     </div>
+    <div class="result">
+        <h2 id="result">llena el formulario y mira los resultados!</h2>
+    </div>
 
     <!-- Section to display the personalized result message -->
-    <h2 id="result"></h2>
+
   </body>
   <!-- Link to the external JavaScript file for form handling -->
-  <script src="script.js"></script>
+  <script src="/js/script.js"></script>
 </html>
